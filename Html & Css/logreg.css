@@ -119,12 +119,35 @@ a {
   width: 100%;
 }
 
+.gender-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
 .gender-group {
   display: flex;
+  align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 5px;
 }
+
+.gender-group label {
+  font-size: 0.95rem;
+  color: #020202ff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gender-group input[type="radio"] {
+  accent-color: #0d6efd;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 
 .checkbox-container {
   display: flex;
